@@ -1,0 +1,103 @@
+
+
+body { 
+	font-family: 'Poppins', sans-serif; 
+    background-color: #edeaea;
+    margin:0;
+
+}
+
+
+
+a { 
+	color: #ffffff;
+	font-size: 18px;
+	
+}
+
+h1 { 
+	font-size: 40px; 
+	text-align: center;
+	color: #ffffff;
+
+}
+
+h2 { 
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.button {
+
+  background-color: #2a9956;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+
+}
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 2px;
+  width: 350px;
+  text-align: center;
+  padding: 24px;
+  margin: 8px;
+}
+
+.card-white img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1425736317462-a103b1303a35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+}
+
+@media (max-width: 1275px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+
+.footer {
+
+font-size: 15px;
+	text-align: right;
+	color: #0;
+	margin-right: 15px;
+
+}
+
+
