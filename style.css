@@ -71,6 +71,17 @@ h2 {
   grid-gap: 5px;
 }
 
+@media (max-width: 1680px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+
+
 @media (max-width: 1275px) {
   .cards {
     grid-template-columns: 1fr 1fr;
@@ -80,6 +91,9 @@ h2 {
     width: auto;
   }
 }
+
+
+
 
 @media (max-width: 800px) {
   .cards {
